@@ -10,4 +10,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run Python script
-        run: python your_script.py
+        run: python 2023_06_14__stock_predict.py

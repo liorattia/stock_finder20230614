@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1q_8cgTUfqBJ78pXArv37r9cYJ6Y5tJ8w
 """
 
-from zmq.constants import NULL
+# from zmq.constants import NULL
 
 import pandas as pd
 import yfinance as yf

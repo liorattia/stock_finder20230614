@@ -15,7 +15,7 @@ jobs:
         run: python -m pip install --upgrade pip pandas
 
       - name: Install yahoo finance
-        run: python -m pip install --upgrade yfinance
+        run: python -m pip install yfinance
 
       - name: Run Python script
         run: python 2023_06_14__stock_predict.py

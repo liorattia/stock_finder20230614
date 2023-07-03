@@ -15,7 +15,7 @@ jobs:
         run: python -m pip install --upgrade pip pandas
 
       # - run: python pip install -i https://pypi.anaconda.org/ranaroussi/simple finance
-      - run: python -m pip install -i https://pypi.anaconda.org/ranaroussi/simple yfinance
+      - run: pip install -i https://pypi.anaconda.org/ranaroussi/simple yfinance
 
       - name: Run Python script
         run: python 2023_06_14__stock_predict.py
